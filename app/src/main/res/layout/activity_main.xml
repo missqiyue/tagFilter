@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.qiyue.tagFilter.MainActivity">
 
     <ScrollView
         android:layout_width="0dp"
@@ -28,7 +28,7 @@
                 android:textColor="#252525"
                 android:textSize="15dp" />
 
-            <com.qiyue.tagFilter.view.TagFilterView
+            <com.qiyue.tagfilter.TagFilterView
                 android:id="@+id/tagFilterView1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -38,7 +38,7 @@
                 app:tagTextSize="13"
                 app:verticalSpacing="10dp" />
 
-            <com.qiyue.tagFilter.view.TagFilterView
+            <com.qiyue.tagfilter.TagFilterView
                 android:id="@+id/tagFilterView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -56,7 +56,7 @@
                 app:verticalSpacing="10dp" />
 
 
-            <com.qiyue.tagFilter.view.TagFilterView
+            <com.qiyue.tagfilter.TagFilterView
                 android:id="@+id/tagFilterView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -74,7 +74,7 @@
                 app:titleVerticalSpacing="15dp"
                 app:verticalSpacing="10dp" />
 
-            <com.qiyue.tagFilter.view.TagFilterView
+            <com.qiyue.tagfilter.TagFilterView
                 android:id="@+id/tagFilterView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -94,7 +94,7 @@
                 app:verticalSpacing="10dp" />
 
 
-            <com.qiyue.tagFilter.view.TagFilterView
+            <com.qiyue.tagfilter.TagFilterView
                 android:id="@+id/tagFilterView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -112,7 +112,7 @@
                 app:verticalSpacing="10dp" />
 
 
-            <com.qiyue.tagFilter.view.TagFilterView
+            <com.qiyue.tagfilter.TagFilterView
                 android:id="@+id/tagFilterView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -130,7 +130,7 @@
                 app:verticalSpacing="10dp" />
 
 
-            <com.qiyue.tagFilter.view.TagFilterView
+            <com.qiyue.tagfilter.TagFilterView
                 android:id="@+id/tagFilterView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -147,7 +147,7 @@
                 app:titleVerticalSpacing="15dp"
                 app:verticalSpacing="10dp" />
 
-            <com.qiyue.tagFilter.view.TagFilterView
+            <com.qiyue.tagfilter.TagFilterView
                 android:id="@+id/tagFilterView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -165,7 +165,7 @@
                 app:verticalSpacing="10dp" />
 
 
-            <com.qiyue.tagFilter.view.TagFilterView
+            <com.qiyue.tagfilter.TagFilterView
                 android:id="@+id/tagFilterView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -182,7 +182,7 @@
                 app:titleVerticalSpacing="15dp"
                 app:verticalSpacing="10dp" />
 
-            <com.qiyue.tagFilter.view.TagFilterView
+            <com.qiyue.tagfilter.TagFilterView
                 android:id="@+id/tagFilterView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

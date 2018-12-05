@@ -3,6 +3,11 @@ package com.qiyue.tagFilter;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
+
+import com.qiyue.tagfilter.TagFilterView;
+import com.qiyue.tagfilter.model.ComTagFilterData;
+import com.qiyue.tagfilter.test.R;
+
 import java.util.ArrayList;
 import java.util.List;
 
