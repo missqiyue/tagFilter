@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="单选(不可反选/无标题)"
+                android:textColor="#252525"
+                android:textSize="15dp" />
+
+            <com.qiyue.tagFilter.view.TagFilterView
+                android:id="@+id/tagFilterView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:horizontalSpacing="10dp"
+                app:isMoreSelect="false"
+                app:tagHeight="30dp"
+                app:tagTextSize="13"
+                app:verticalSpacing="10dp" />
+
+            <com.qiyue.tagFilter.view.TagFilterView
+                android:id="@+id/tagFilterView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:horizontalSpacing="10dp"
+                app:isBackSelect="true"
+                app:isMoreSelect="false"
+                app:isShowTitle="true"
+                app:tagHeight="30dp"
+                app:tagTextSize="13"
+                app:tagTitleText="单选(可反选/有标题)"
+                app:titleTextColor="#252525"
+                app:titleTextSize="15"
+                app:titleVerticalSpacing="15dp"
+                app:verticalSpacing="10dp" />
+
+
+            <com.qiyue.tagFilter.view.TagFilterView
+                android:id="@+id/tagFilterView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:horizontalSpacing="10dp"
+                app:isAdaptive="true"
+                app:isBackSelect="true"
+                app:isMoreSelect="true"
+                app:isShowTitle="true"
+                app:tagHeight="30dp"
+                app:tagTextSize="13"
+                app:tagTitleText="多选(无不限,自适应)"
+                app:titleTextColor="#252525"
+                app:titleTextSize="15"
+                app:titleVerticalSpacing="15dp"
+                app:verticalSpacing="10dp" />
+
+            <com.qiyue.tagFilter.view.TagFilterView
+                android:id="@+id/tagFilterView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:horizontalSpacing="10dp"
+                app:isBackSelect="true"
+                app:isMoreSelect="true"
+                app:isShowTitle="true"
+                app:isShowUnlimited="true"
+                app:tagHeight="30dp"
+                app:tagTextSize="13"
+                app:tagTitleText="多选(有不限)"
+                app:titleTextColor="#252525"
+                app:titleTextSize="15"
+                app:titleVerticalSpacing="15dp"
+                app:unlimitedText="不限"
+                app:verticalSpacing="10dp" />
+
+
+            <com.qiyue.tagFilter.view.TagFilterView
+                android:id="@+id/tagFilterView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:horizontalSpacing="10dp"
+                app:isBackSelect="true"
+                app:isMoreSelect="true"
+                app:isShowTitle="true"
+                app:tagHeight="30dp"
+                app:tagTextSize="13"
+                app:tagTitleText="多选(数组)"
+                app:titleTextColor="#252525"
+                app:titleTextSize="15"
+                app:titleVerticalSpacing="15dp"
+                app:verticalSpacing="10dp" />
+
+
+            <com.qiyue.tagFilter.view.TagFilterView
+                android:id="@+id/tagFilterView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:horizontalSpacing="10dp"
+                app:isBackSelect="true"
+                app:isMoreSelect="true"
+                app:isShowTitle="true"
+                app:tagHeight="30dp"
+                app:tagTextSize="13"
+                app:tagTitleText="多选(list  String)"
+                app:titleTextColor="#252525"
+                app:titleTextSize="15"
+                app:titleVerticalSpacing="15dp"
+                app:verticalSpacing="10dp" />
+
+
+            <com.qiyue.tagFilter.view.TagFilterView
+                android:id="@+id/tagFilterView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:horizontalSpacing="10dp"
+                app:isBackSelect="true"
+                app:isMoreSelect="true"
+                app:isShowTitle="true"
+                app:tagHeight="30dp"
+                app:tagTextSize="13"
+                app:tagTitleText="多选(List T)"
+                app:titleTextColor="#252525"
+                app:titleTextSize="15"
+                app:titleVerticalSpacing="15dp"
+                app:verticalSpacing="10dp" />
+
+            <com.qiyue.tagFilter.view.TagFilterView
+                android:id="@+id/tagFilterView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:horizontalSpacing="10dp"
+                app:isBackSelect="true"
+                app:isMoreSelect="true"
+                app:isShowTitle="true"
+                app:tagHeight="30dp"
+                app:tagTextSize="13"
+                app:tagTitleText="多选默认选中KEY(List T)"
+                app:titleTextColor="#252525"
+                app:titleTextSize="15"
+                app:titleVerticalSpacing="15dp"
+                app:verticalSpacing="10dp" />
+
+
+            <com.qiyue.tagFilter.view.TagFilterView
+                android:id="@+id/tagFilterView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:horizontalSpacing="10dp"
+                app:isBackSelect="true"
+                app:isMoreSelect="true"
+                app:isShowTitle="true"
+                app:tagHeight="30dp"
+                app:tagTextSize="13"
+                app:tagTitleText="多选默认选中NAME(List T)"
+                app:titleTextColor="#252525"
+                app:titleTextSize="15"
+                app:titleVerticalSpacing="15dp"
+                app:verticalSpacing="10dp" />
+
+            <com.qiyue.tagFilter.view.TagFilterView
+                android:id="@+id/tagFilterView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:horizontalSpacing="10dp"
+                app:isBackSelect="true"
+                app:isMoreSelect="true"
+                app:isShowTitle="true"
+                app:tagHeight="30dp"
+                app:tagTextSize="13"
+                app:tagTitleText="多选默认选中index(List T)"
+                app:titleTextColor="#252525"
+                app:titleTextSize="15"
+                app:titleVerticalSpacing="15dp"
+                app:verticalSpacing="10dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
