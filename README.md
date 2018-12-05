@@ -23,7 +23,7 @@ implementation 'com.github.missqiyue:tagFilter:v1.0'
 
 ```
 ## 效果
-
+![效果](https://github.com/missqiyue/tagFilter/blob/master/app/src/main/assets/test.gif)
 
 ## 功能介绍
 
