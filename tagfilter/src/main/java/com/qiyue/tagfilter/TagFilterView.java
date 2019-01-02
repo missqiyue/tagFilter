@@ -489,11 +489,7 @@ public class TagFilterView<T> extends ViewGroup {
         //创建标签
         for (int i = 0; i < tags.length; i++) {
             TextView textView = onCreateTagView(tags[i], i);
-            //如果有不限，下标要往后加1
             int index = i;
-            if (isShowUnlimited) {
-                index += 1;
-            }
             final int finalIndex = index;
             textView.setOnClickListener(new OnClickListener() {
                 @Override
