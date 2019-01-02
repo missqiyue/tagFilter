@@ -9,7 +9,7 @@ allprojects {
     }
 }
 
-implementation 'com.github.missqiyue:tagFilter:v1.0'
+implementation 'com.github.missqiyue:tagFilter:v1.0.1'
 
 <com.qiyue.tagfilter.TagFilterView
         android:id="@+id/tagFilterView1"
